@@ -1,0 +1,13 @@
+{
+  "name": "emitify",
+  "version": "1.0.0",
+  "description": "The typescript event emitter with weird features you probably don't want",
+  "author": "Ghqst",
+  "main": "transpiled.js",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "fastpriorityqueue": "^0.7.1",
+    "wildcard-match": "^5.1.0"
+  }
+}
