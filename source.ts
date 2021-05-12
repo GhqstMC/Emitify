@@ -1,7 +1,7 @@
 import FastPriorityQueue from 'fastpriorityqueue'
 import wcmatch from 'wildcard-match'
 
-export class Emitify {
+export default class Emitify {
   queue: FastPriorityQueue = new FastPriorityQueue((a, b) => {
     return a.priority < b.priority
   });
